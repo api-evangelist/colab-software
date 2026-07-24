@@ -1,9 +1,30 @@
 aid: colab-software
 name: CoLab Software
-description: CoLab Software is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CoLab is an AI-powered design review platform for engineering and
+  product-development teams. It pairs collaborative CAD viewing with AI peer
+  checking and automated lessons-learned capture so distributed teams can run
+  faster virtual design reviews, surface issues earlier, and turn expert
+  engineering knowledge into faster, better-documented decisions. CoLab also
+  publishes a REST-based Enterprise API (50+ endpoints) for two-way integration
+  with PLM/PDM and other engineering systems — provisioning workspaces, users,
+  and roles, importing files and feedback, and extracting review activity — with
+  audit logging on every action. Enterprise API access is currently gated behind
+  a waitlist. CoLab operates under SOC 2 Type 2, ISO 27001/27017/27018, TISAX,
+  and FedRAMP High.
 url: https://raw.githubusercontent.com/api-evangelist/colab-software/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5e4d9854e6dad067f4b514b3/6902ba3bd341fb86999245f0_Opengraph.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Design Review
+- Engineering Collaboration
+- CAD
+- Product Development
+- AI
+- PLM
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.colabsoftware.com/
+- type: APIReference
+  url: https://www.colabsoftware.com/integrations/api
+- type: Blog
+  url: https://www.colabsoftware.com/blog
+- type: SignUp
+  url: https://app.colabsoftware.com
+- type: Login
+  url: https://app.colabsoftware.com
+- type: TermsOfService
+  url: https://www.colabsoftware.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.colabsoftware.com/privacy-policy
+- type: Compliance
+  url: https://www.colabsoftware.com/security
+- type: TrustCenter
+  url: security/colab-software-trust-center.yml
+- type: DomainSecurity
+  url: security/colab-software-domain-security.yml
+- type: LLMsTxt
+  url: llms/colab-software-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
