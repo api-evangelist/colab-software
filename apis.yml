@@ -13,6 +13,17 @@ description: >-
   a waitlist. CoLab operates under SOC 2 Type 2, ISO 27001/27017/27018, TISAX,
   and FedRAMP High.
 url: https://raw.githubusercontent.com/api-evangelist/colab-software/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
